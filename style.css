@@ -1,0 +1,366 @@
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+   background: #0f0f10;
+   font-family: "Poppins", sans-serif;
+   color: #ffffff;
+ }
+ a {
+   text-decoration:none ;
+ }
+ li{
+   list-style: none;
+ }
+ body{
+   margin:0 15%;
+ }
+ nav{
+   display: flex;
+   width:100%;
+   justify-content: space-between;
+   align-items: center;
+   padding:30px 0;
+ }
+ nav img{
+   height:25px;
+   width: 25px;
+   
+   
+ } 
+ nav ul{
+   display:flex;
+ }
+nav ul li{
+ margin-right: 40px   ;
+}
+ nav ul li a{
+   font-size:15px ;
+   font-weight:700 ;
+ }
+ .nav-right-section{
+   display: flex;
+   align-items: center;
+ }
+.nav-right-section button{
+font-size:15px ;
+font-weight:300 ;
+background: #1e1e21;
+padding: 10px 40px;
+border-radius:10px ;
+}
+main{
+display: flex;
+align-items: flex-start;
+position: relative;
+margin-top:40px ;
+} 
+.photo{
+   width: 250px;
+   position:relative ;
+   left:30px;
+   top: -250px;
+}
+.hero{
+   margin-left:40px ;
+}
+.hero-img{
+   width: 320px;
+   margin-left:80px ;
+}
+.hero h1{
+   font-size:40px ;
+   font-weight:600 ;
+   margin-bottom:20px ;
+}
+.hero h4{
+   font-weight: 500;
+   font-size:15px ;
+   margin-bottom:20px ;
+}
+.hero p{
+   width: 65%;
+   color: #bdc0c2;
+   line-height:30px ;
+   font-size:15px ;
+   font-weight:300 ;
+   margin-bottom:25px ;
+   
+}
+.shoping-bag{
+   display: flex;
+   background: #1e1e21;
+   width: fit-content;
+   align-items: center;
+   gap: 20px;
+   border-radius:10px ;
+}
+.shoping-bag img{
+   background-color:transparent;
+   width: 15px;
+}
+.shoping-bag p{
+   color: #ffffffde;
+   background-color: transparent;
+   margin: 0;
+}
+.shoping-bag span{
+   background-color:transparent;
+}
+.social-media-section{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 0 50px;
+   position: relative;
+   top: -80px;
+   margin-bottom:40px ;
+}
+.social-media-section img{
+   scale:0.8;
+}
+.specification{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.specification-img{
+   scale:0.8;
+   margin-bottom:30px ;
+}
+.specification-list{
+   display: flex;
+   flex-direction: column;
+}
+.specification-list img{
+scale:0.8;
+}
+.specification-list div{
+   margin-bottom:20px ;
+}
+.specification-list div p{
+  font-size:12px ; 
+}
+.specification-list div p:last-child{
+   color: #bdc0c2;
+   width:90%;
+   margin-top: 5px;
+   font-size:10px ;
+}
+.specification-list div:first-child,
+.specification-list div:last-child{
+   margin-left:30px;
+}
+
+.case{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top:80px ;
+}
+.case-item{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+.case-item img{
+   scale: 0.8;
+}
+.case-item p {
+   width: 20%;
+}
+.case-item img:last-child{
+   width:20%;
+}
+.case-item p{
+   color: #bdc0c2;
+   font-size:12px ;
+   font-weight:400 ;
+}
+.case-item p:last-child{
+   scale: 0.8;
+   background-color: transparent;
+}
+.case-item p:last-child{
+   width: fit-content;
+   background: #1e1e21;
+   display: flex;
+   align-items: center;
+   padding: 10px 20px;
+   gap: 20px;
+   font-size:12px ;
+   border-radius:10px ;
+}
+.buy-product{
+   background: #181a1b;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius:12px ;
+   gap: 50px;
+   padding: 40px 0;
+   margin-top:70px ;
+}
+.buy-product div,
+.buy-product p,
+ .buy-product h3,
+ .buy-product img{
+   background-color: transparent;   
+}
+.buy-product div{
+   width: 25%;
+}
+.buy-product div h3{
+   font-weight:600 ;
+   font-size:12px ;
+   margin-bottom:15px ;
+}
+.buy-product div p{
+   color: #bdc0c2;
+font-size: 12px;
+margin-bottom:15px ;
+}
+.buy-product div div {
+   display: flex;
+   background: #000000;
+   align-items: center;
+   width: fit-content;
+   padding: 10px 20px;
+   border-radius:8px ;
+}
+.buy-product div div img{
+   scale: 0.8;
+   margin-right:20px ;
+}
+.buy-product div div p {
+   margin-bottom: 0;
+   font-size: 12px;
+   color: white;
+ }
+ .product{
+   
+   display: flex;
+   flex-direction: column;
+   margin: 0 150px;
+ }
+ .product img {
+   display: flex;
+   flex-direction: column;
+   scale: 0.3;
+ }
+ .product-card{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 50px;
+   padding-left: 50px;
+   position: relative;
+   width: 130px;
+   height: 130px;
+   background: #181a1b;
+   border-radius: 8px;
+ }
+ .product-img {
+   width: 150px;
+   height:100 px;
+   position: absolute;
+   z-index: 100;
+   top: -40px;
+   left: 28px;
+ }
+ .product-img,
+  .product-card p,
+  .product-card span,
+  .product-card img,
+  .product-card div {
+    background-color: transparent;
+  }
+
+  .product-card p{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   padding: 10px 15px;
+   font-size:15px ;
+
+  }
+  .product-card p span{
+   color: #bdc0c2;
+
+  }
+  .product- img{
+   background: #0a0a0b;
+   border-radius: 8px;
+   padding: 2px 6px;
+ }
+  footer{
+    margin: 100px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.footer-logo{
+    scale: 0.8;
+  }
+  
+  ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+  }
+  ul li:first-child a{
+   font-size: 16px;
+   font-weight: 400;
+   color: white;
+ }
+ 
+ ul li:first-child{
+   margin-bottom: 10px;
+ }
+ .footer-subscription{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+ }
+ .footer-subscription div:first-child{
+   background: #181A1B;
+ border-radius: 8px;
+ padding: 5px 10px;
+ display: flex;
+ }
+ .footer-subscription div:first-child input{
+   border: none;
+   background-color: transparent;
+ }
+ .subscribe-button{
+   background: #0A0A0B;
+   border-radius: 8px;
+   padding: 10px 20px;
+   border: none;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+ .subscribe-button img{
+   scale: 0.8;
+ }
+ .subscribe-button p{
+   font-size: 12px;
+ }
+ .footer-subscription div:last-child img{
+   margin-right: 10px;
+   scale: 0.8;
+ }
+ .arrow-up{
+   position: absolute;
+   right: -160px;
+   scale: 0.8;
+
+ }
+ 
+ 
